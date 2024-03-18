@@ -35,4 +35,5 @@ urlpatterns =[
     path('logout',views.logout,name="logout"),
     path('payment/<int:bid>',views.Payment,name="payment"),
     path('paymentinsert',views.payment_insert,name="payment_insert")
+    djkmnekdm
 ]
